@@ -1,37 +1,63 @@
-🍵 Momo Tea Franchise & Operations Platform
+<h1 align="center" style="font-size:40px;">🍵 Momo Tea Franchise & Operations Platform</h1>
+<p align="center" style="font-size:16px;">
+A <b>full-stack web application</b> designed as the core infrastructure for <b>Momo Tea’s franchise expansion</b>.
+</p>
 
-Project Overview
-This is a full-stack web application developed for the Momo Tea franchise, serving as the core infrastructure for both brand promotion and vendor management. The platform is strategically designed to support aggressive franchise expansion by providing a professional face for investors and a robust, centralized operations system for franchisees.
+<hr/>
 
-Key Features
-The website is segmented into two primary areas:
+<h2>✨ Key Features</h2>
 
-A. Marketing & Investor Portal (Frontend)
+<h3>A. Marketing & Investor Portal (Frontend)</h3>
+<ul>
+  <li>📊 <b>Investor Pitch Deck Integration</b> – High-level promotional materials and data to attract potential investors.</li>
+  <li>🏢 <b>Franchise Recruitment</b> – Content detailing the benefits, costs, and support structure for new franchisees.</li>
+  <li>🎨 <b>Brand Integrity</b> – A visually appealing interface reinforcing the professional and modern image of Momo Tea.</li>
+</ul>
 
-  The public-facing portal is focused on showcasing the investment opportunity and brand strength:
+<h3>B. Operations Management System (OMS)</h3>
+<ul>
+  <li>💵 <b>Real-Time Income & Sales</b>
+    <ul>
+      <li>Centralized dashboards for sales, income, and KPIs.</li>
+      <li>Ensures transparency for investors and helps franchisees evaluate performance instantly.</li>
+    </ul>
+  </li>
+  <li>📦 <b>Stock & Inventory Control</b>
+    <ul>
+      <li>Tracks raw materials (tea leaves, pearls, syrup, etc.).</li>
+      <li>Maintains par levels and generates low-stock alerts.</li>
+      <li>Reduces waste and standardizes ingredient costs across franchises.</li>
+    </ul>
+  </li>
+  <li>👥 <b>Staff & Absence Management</b>
+    <ul>
+      <li>Manage employee records, track attendance, log absences.</li>
+      <li>Monitors shift coverage and supports accurate payroll.</li>
+    </ul>
+  </li>
+</ul>
 
-  - Investor Pitch Deck Integration: High-level promotional materials and data to attract potential investors.
-  - Franchise Recruitment: Dedicated content detailing the benefits, costs, and support structure for new franchisees.
-  - Brand Integrity: A visually appealing interface that reinforces the professional and modern image of the Momo Tea brand.
+<hr/>
 
-B. Operations Management System (OMS) (Backend & Secure Login)
+<h2>🛠️ Technology Stack</h2>
+<table>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>HTML, CSS, JavaScript</td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td>Laravel Framework</td>
+  </tr>
+  <tr>
+    <td><b>Database</b></td>
+    <td>MySQL</td>
+  </tr>
+</table>
 
-  A powerful, secure area providing transparency and control over daily vendor activities:
-  
-  - Real-Time Income & Sales
-      * Centralized dashboards displaying sales, income, and key performance indicators (KPIs) for each vendor location.
-          + Ensures financial transparency for investors and allows instant performance evaluation for franchisees.
-  - Stock & Inventory Control
-      * Tracks raw material usage (tea leaves, pearls, syrup, etc.), maintains par levels, and generates low-stock alerts.
-          + Reduces waste, prevents stock-outs, and standardizes ingredient costs across the entire franchise.
-  - Staff & Absence Management
-      * System for managing employee records, tracking attendance, logging absences, and monitoring shift coverage per vendor.
-          + Streamlines HR processes, ensures fair scheduling, and provides accurate payroll data.
-  
-  Technology Stack
-  - Frontend	
-    ∗ HTML/CSS/JS
-  - Backend	
-    * Laravel Framework
-  - Database	
-    ∗ MySQL
+<hr/>
+
+<hr/>
+
+<h2>📄 License</h2>
+<p>This project is licensed under the <b>MIT License</b> – feel free to use and adapt.</p>
